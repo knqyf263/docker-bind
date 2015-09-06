@@ -1,7 +1,7 @@
 FROM centos:6
 MAINTAINER knqyf263
 
-ENV version 9.10.2-P3
+ENV version 9.10.2-P4
 
 RUN yum -y update
 RUN yum -y groupinstall "Development Tools"
